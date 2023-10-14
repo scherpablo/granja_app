@@ -15,6 +15,10 @@ const categorias = [
     icono: "almacen",
     nombre: "Almacén",
   },
+  {
+    icono: "snacks",
+    nombre: "Snacks",
+  },
 ];
 
 export { categorias };
