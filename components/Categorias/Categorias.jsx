@@ -21,12 +21,12 @@ const Categorias = ({ categoria }) => {
         alt="imagen icono"
       />
 
-        <button
+        <a href="#categoria"><button
           className={styles.btnCat}
           type="button"
         >
           {nombre}
-        </button>
+        </button></a>
     </div>
   );
 };

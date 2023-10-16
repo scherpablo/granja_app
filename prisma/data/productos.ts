@@ -12,7 +12,7 @@ const productos = [
     categoriaId: 1,
   },
   {
-    nombre: "Pata y Muslo x 2kg",
+    nombre: "Pata y Muslo x 3kg",
     precio: 2800,
     imagen: "pollo_02",
     categoriaId: 1,
@@ -115,7 +115,7 @@ const productos = [
   },
   {
     nombre: "Bolsa Savorizada Knorr 21grs",
-    precio: 3800,
+    precio: 380,
     imagen: "almacen_04",
     categoriaId: 4,
   },

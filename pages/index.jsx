@@ -9,7 +9,7 @@ export default function Home() {
 
   return (
     <Layout pagina={`Menu ${categoriaActual?.nombre}`}>
-      <div className={styles.containerLayout}>
+      <div className={styles.containerLayout} id="categoria">
         <div className={styles.divLayout}>
           <Pasos />
           <h2 className={styles.h2}>{categoriaActual?.nombre}</h2>
