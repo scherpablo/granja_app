@@ -22,6 +22,7 @@ body {
   margin: 0;
   font-family: var(--fuentePrincipal);
   min-width: 420px;
+  scroll-behavior: smooth;
 }
 
 h1, h2, h3, p {
