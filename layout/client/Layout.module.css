@@ -54,3 +54,8 @@
     }
   }
 }
+@media (max-width: 480px) {
+    .main {
+      border-top: 1px solid var(--neutral400);
+    }
+}
