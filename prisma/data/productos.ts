@@ -210,6 +210,36 @@ const productos = [
     categoriaId: 5,
   },
   {
+    nombre: "Queso Cheddar 90grs",
+    precio: 700,
+    imagen: "almacen_18",
+    categoriaId: 5,
+  },
+  {
+    nombre: "Papas Onduladas 90grs",
+    precio: 700,
+    imagen: "almacen_19",
+    categoriaId: 5,
+  },
+  {
+    nombre: "Quento Papas Pay 90grs",
+    precio: 700,
+    imagen: "almacen_20",
+    categoriaId: 5,
+  },
+  {
+    nombre: "Quento Papas Limón 90grs",
+    precio: 700,
+    imagen: "almacen_21",
+    categoriaId: 5,
+  },
+  {
+    nombre: "Quento Papas Salame 90grs",
+    precio: 700,
+    imagen: "almacen_22",
+    categoriaId: 5,
+  },
+  {
     nombre: "Bocadillos Calabaza x 1kg",
     precio: 2260,
     imagen: "congelados_01",
