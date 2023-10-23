@@ -16,16 +16,37 @@
     margin-top: 20px;
   }
 
+  .divPasos {
+    visibility: hidden;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-top: 50px;
+    width: 100%;
+
+    .botonPasos {
+      background-color: var(--white);
+      color: var(--black);
+      border: none;
+      font-size: 18px;
+      font-weight: 800;
+      cursor: pointer;
+    }
+  }
+
   @media (max-width: 1140px) {
-      .nav {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-      }
+    .nav {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+    }
   }
   @media (max-width: 768px) {
     .nav {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
+    }
+    .divPasos {
+      visibility: visible;
     }
   }
   @media (max-width: 480px) {
@@ -35,6 +56,3 @@
     }
   }
 }
-
-
-
